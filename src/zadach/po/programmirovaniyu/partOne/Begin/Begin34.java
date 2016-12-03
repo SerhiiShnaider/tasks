@@ -28,7 +28,7 @@ public class Begin34 {
         System.out.println("\none kg of chocolate candies cost = " + oneKgChocolateCandiesCost);
         System.out.println("one kg of iris candies cost = " + oneKgIrisCandiesCost);
 
-        double costDifferent = 0;
+        double costDifferent;
         if (costChocolateCandies > costIrisCandies) {
             costDifferent = oneKgChocolateCandiesCost / oneKgIrisCandiesCost;
             System.out.println("\nchocolate candies are expensive in " + costDifferent + " times");
