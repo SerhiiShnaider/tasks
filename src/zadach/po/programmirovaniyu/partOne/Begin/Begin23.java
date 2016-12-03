@@ -11,12 +11,12 @@ import java.util.Scanner;
 и вывести новые значения переменных A, B, C.*/
 public class Begin23 {
     public static void main(String[] args) {
-        System.out.print("type point a = ");
+        System.out.print("type a = ");
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
-        System.out.print("type point b = ");
+        System.out.print("type b = ");
         double b = scanner.nextDouble();
-        System.out.print("type point c = ");
+        System.out.print("type c = ");
         double c = scanner.nextDouble();
 
         a = a + b;

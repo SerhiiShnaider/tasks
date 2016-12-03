@@ -10,10 +10,10 @@ import java.util.Scanner;
 значения A и B.*/
 public class Begin22 {
     public static void main(String[] args) {
-        System.out.print("type point a = ");
+        System.out.print("type a = ");
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
-        System.out.print("type point b = ");
+        System.out.print("type b = ");
         double b = scanner.nextDouble();
         double tmp = 0;
         // first way
