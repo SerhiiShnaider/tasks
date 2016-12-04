@@ -16,7 +16,7 @@ public class Boolean10 {
         int a = scanner.nextInt();
         System.out.print("type b = ");
         int b = scanner.nextInt();
-        System.out.println("is a or b odd ? " + (((a % 2 == 0) && (b % 2 != 0)) || ((a % 2 != 0) && (b % 2 == 0))));
+        System.out.println("is only a or only b odd ? " + (((a % 2 == 0) && (b % 2 != 0)) || ((a % 2 != 0) && (b % 2 == 0))));
         scanner.close();
     }
 }
